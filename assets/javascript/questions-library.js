@@ -90,9 +90,69 @@ var questionsLibrary = [
         image: "assets/images/questionImages/15.png"
     },
     {
-        questin:"In the Jungle Book, what did Shere Khan fear the most?",
+        question:"In the Jungle Book, what did Shere Khan fear the most?",
         answers:["Wolves","Mankind","Mowgli","Fire"],
         correctAnswer: 3,
         image: "assets/images/questionImages/16.png"
+    },
+    {
+        question:"In 'The Nightmare Before Christmas', what location is Jack Skellington considered to be the Pumpkin King of?",
+        answers:["Christmas Town","Easter Town","Halloween Town","Thanksgiving Town"],
+        correctAnswer: 2,
+        image: "assets/images/questionImages/17.png"
+    },
+    {
+        question:"When the soldiers in Mulan were told to retrieve the 2 medals at the top of the pole, what were they told what the 2 medals stood for?",
+        answers:["Intellect & Stength","Strength & Discipline","Discipline & Intellect","Intelligence & Strength"],
+        correctAnswer: 1,
+        image: "assets/images/questionImages/18.png"
+    },
+    {
+        question:"In Frozen what is the name of the place where Elsa builds her castle?",
+        answers:["The North Mountain","The West Mountain", "The South Mountain","The East Mountain"],
+        correctAnswer: 0,
+        image: "assets/images/questionImages/19.png"
+    },
+    {
+        question:"In Tangled, what color does Rapunzels hair turn in to when it is cut?",
+        answers:["Black","Red","Brown","White"],
+        correctAnswer: 2,
+        image: "assets/images/questionImages/20.png"
+    },
+    {
+        question:"In what country does Beauty & the Beast take place?",
+        answers:["France","Italy","Switzerland","Russia"],
+        correctAnswer: 0,
+        image: "assets/images/questionImages/21.png"
+    },
+    {
+        question:"In Beauty & The Beast, what area of the castle can the enchanted rose be found?",
+        answers:["The East Wing","The North Wing","The West Wing","The South Wing"],
+        correctAnswer: 2,
+        image: "assets/images/questionImages/22.png"
+    },
+    {
+        question:"What are Cinderellas wicked stepsisters names?",
+        answers:["Drizella & Anastasia","Drizella & Gabriella","Alexandra & Anastasia","Gabriella & Alexandra"],
+        correctAnswer:0,
+        image: "assets/images/questionImages/23.png"
+    },
+    {
+        question:"In what country did Alice in Wonderland have its premiere?",
+        answers:["New Zealand","England","Sweden","Australia"],
+        correctAnswer: 1,
+        image: "assets/images/questionImages/24.png"
+    },
+    {
+        question:"Which Full Length Animated Feature's last line in the film is, 'Well, come along, It's time for tea?'",
+        answers:["Beauty & the Beast","Pocahontas","Sleeping Beauty","ALice in Wonderland"],
+        correctAnswer: 3,
+        image: "assets/images/questionImages/25.png"
+    },
+    {
+        question:"How old is Mowgli when he taken back to the man village in The Jungle Book?",
+        answers:["7","8","9","10"],
+        correctAnswer:3,
+        image: "assets/images/questionImages/26.png"
     }
 ];
