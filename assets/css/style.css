@@ -1,9 +1,9 @@
-font-family: 'Courgette', cursive;
+/* font-family: 'Courgette', cursive; */
 
 body {
     font-family: 'Courgette', cursive;
     font-size: 20px;
-    background-color: darkgrey;
+    background-color: rgb(0, 54, 90);
     background-size: 100%;
     background-repeat: no-repeat;
     background-image: url("../images/init-BG.jpg");
@@ -93,12 +93,13 @@ button#newGame {
 .scoreboard {
     float: left;
     margin: 2%;
-    background-color: #c5bbac;
+    background-color: rgb(0, 54, 90);
     width: 20%;
     padding: 15px 6px;
     height: 52px;
     box-sizing: border-box;
     text-align: center;
+    color: white;
 }
 
 
@@ -120,7 +121,7 @@ button {
     font-size: 48px;
     font-family: 'Courgette', cursive;
     margin-top: 4%;
-    background-color: #280207;
+    background-color: #280a02;
     border-color: #666;
     border-radius: 7px;
     color: white;
@@ -128,7 +129,27 @@ button {
 
 /* responsive styles! */
 @media screen and (max-width: 750px) {
+    section {
+        color: antiquewhite;
+        padding: 4%;
+        margin: 0 7% 3% 7%;
+        position: relative;  
+        top: -18px;  
+        line-height: 35px;
+        clear: both;
+    }
+    
+    .sectionBG {
+        background-color: rgb(0, 54, 90);
+        opacity: .85;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
     #timer {
+        background-color: rgb(0, 54, 90);
         font-size: 12px;
     }
     h1 {
@@ -139,10 +160,31 @@ button {
     }
 }
 @media screen and (max-width: 550px) {
+    section {
+        color: antiquewhite;
+        padding: 4%;
+        margin: 0 7% 3% 7%;
+        position: relative;  
+        top: -18px;  
+        line-height: 35px;
+        clear: both;
+    }
+    
+    .sectionBG {
+        background-color: rgb(0, 54, 90);
+        opacity: .85;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
     #score {
+        background-color: rgb(0, 54, 90);
         clear: both;
     }
     .scoreboard {
+        
         width: 35%;
     }
 }

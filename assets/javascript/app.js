@@ -12,7 +12,7 @@ var gameLength; // set this to limit the number of questions per game
 
 function initGame(){
 	// display intro
-	$("#qText").html('When you play disney Movie Trivia Game, I hope that you master the questions. Some of these questions are very difficult, and you only have 10 seconds to answer each question, not enough time to google it! Good luck!! <button id="startGame">Begin Game</button>');
+	$("#qText").html('When you play Disney Movie Trivia Game, I hope that you master the questions. Some of these questions are very difficult. You have 10 seconds to answer each question, not enough time to google it!. Hint : pay attention the pictures some of them have hints!!. Good luck!! <button id="startGame">Begin Game</button>');
 	$("#result").hide();
 	$("#choices").hide();
 	$("#choices li").empty();
