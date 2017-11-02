@@ -9,5 +9,7 @@ When the time runs out the answer will be displayed and the page will automatica
 When the game ends the scores will be displayed on the screen.
 
 A counter will be on the top right side of the page, you have 10 seconds for each question and 3 seconds in between questions.
- 
+
 The player should NOT be able to pick more than one answer for each question.
+
+To play : https://kalmaske.github.io/DisneyMovieTriviaGame/
